@@ -927,6 +927,10 @@ video {
   color: rgb(34 34 34 / var(--tw-text-opacity));
 }
 
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
 .hover\:duration-200:hover {
   transition-duration: 200ms;
 }
