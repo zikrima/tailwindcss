@@ -2,13 +2,15 @@
 module.exports = {
   content: ["index.html"],
   theme: { 
-    container: {
-      center: true,
-    },
+    
     extend: {
       colors: {
-        'primary': '#0e7490',
-        'dark': '#111827'
+        'primary': '#333333',
+        'secondary': '#666666',
+        'light': '#CCCCCC',
+        'dark': '#222222',
+        'accent': '#999999',
+        'logos': '#3e4f75',
       }
     },
   },
